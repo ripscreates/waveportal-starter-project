@@ -1,11 +1,16 @@
+my first rodeo with Solidity, Web3, revisiting long lost skills in node.js, react & css... really good project put together by the fine folks over at _buildspace. Go check em out!_ 
+
+http://buildspace.so/
+
 # buildspace Wave Portal 👋 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
+## Running on Repl.it
+You can run/fork/view this project on my Repl.it site:
+https://replit.com/@ripscreates/waveportal-starter-project
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+## View live on the Web!
+Use Rinkeby Testnet Ethereum network.
+https://waveportal-starter-project.ripscreates.repl.co/
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) and link your Discord account so you can get access to helpful channels and your instructor!
+
