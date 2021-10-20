@@ -1,34 +1,95 @@
+body {
+  background-image: url("images/rbx.jpg");
+  background-color: whitesmoke
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 64px;
+
 }
 
 .dataContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 600px;
+  width: flex;
+
 }
 
 .header {
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  color: black;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: violet;
   margin-top: 16px;
 }
 
 .waveButton {
   cursor: pointer;
   margin-top: 16px;
-  padding: 8px;
+  padding: 12px;
   border: 0;
-  border-radius: 5px;
-  
+  border-radius: 12px;
+  background-color: aqua;
+  transition-duration: 0.3s;
+}
+
+.waveButton:hover {
+  background-color: pink;
+  color: black;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.19);
+}
+
+.connectedButton {
+  background-color: lightgreen;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 1px;
+  color: black;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.status {
+  background-color: lightcyan;
+  border-radius: 12px;
+  border: 3px;
+  border-color: lightgoldenrodyellow;
+  border-radius: 12px;
+  color: black;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+
+.status:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.19);
+}
+
+.key {
+  background-color: lightcyan;
+  border-radius: 12px;
+  border: 3px;
+  border-color: lightgoldenrodyellow;
+  border-radius: 12px;
+  margin-top: 16px;
+  padding: 8px;
+  color: black;
+  justify-content: left;
+  transition-duration: 0.3s;
+}
+
+.key:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 8px 40px 0 rgba(0,0,0,0.19);
 }
